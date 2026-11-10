@@ -21,11 +21,14 @@ public class GaraTiro {
         /*
         faccio fare 5 tiri al primo arciere e ne calcolo il punteggio finale
         */
+        System.out.println(a1.getNome());
         a1.gareggia();
         a1.puntiFinali();
         /*
         faccio fare 5 tiri al secondo arciere e ne calcolo il punteggio finale
         */
+        System.out.println();
+        System.out.println(a2.getNome());
         a2.gareggia();
         a2.puntiFinali();
         /*
